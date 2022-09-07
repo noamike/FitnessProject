@@ -7,9 +7,16 @@ The goal of this project is to start feeling comfortable with Javascript as a wh
 Creating a Basic Fitness app using terminal level Javascript
 
 Goals:
+<br>
     Prompt for a name
-    creating a few choices
+    <br>
+    creating a few choices:
+    <br>
         Look at goals
+        <br>
         set goals
+        <br>
         look at previous runs (reset after each use for now)
+        <br>
         Add runs
+
