@@ -44,7 +44,6 @@ function mainScreen(){
             console.log("Im sorry, please enter 1, 2, 3, goals, workout, or exit");
         }
     } while (!selectionChoice);
-    return;
 }
 
 mainScreen();
