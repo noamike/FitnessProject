@@ -5,11 +5,16 @@ function goals() {
     //console.log("You made it to the Goals Function");
     selectionChoice = true;
     selectionChoice = false;
+    let myGoals = ["Not Set", "Not Set", "Not Set"];
+    let goalLength = ["Short Term:", "Weekly:", "Long Term"];
     do{
         console.log("My Goals: \n What would you like to do? \n 1. View Goals \n 2. Edit Goals \n 3. Return home");
         let goalSelection = prompt();
         if (goalSelection == "1" || goalSelection == 'view'){
-
+            console.log("My Goals:");
+            for(let x = 0; x < myGoals.length; x++){
+                console.log(`${goalLength[x]} ${myGoals[x]}`);
+            };
         } else if (goalSelection == "2" || goalSelection == "edit"){
 
         } else if (goalSelection == "3" || goalSelection == "home"){
